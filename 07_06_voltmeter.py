@@ -5,7 +5,7 @@ analog = ADC(28)
 
 def volts_from_reading(reading):
     min_reading = 336
-    max_reading = 65535
+    max_reading = 65534
     reading_span = max_reading - min_reading
     volts_per_reading = 3.3 / reading_span
     volts = (reading - min_reading) * volts_per_reading
