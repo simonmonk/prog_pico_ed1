@@ -1,7 +1,7 @@
 from machine import Pin
 from utime import sleep
 
-led = Pin(25, Pin.OUT)
+led = Pin(25, Pin.OUT) # For Pico W change 25 to LED see https://forums.raspberrypi.com/viewtopic.php?t=336836
 
 dot_duration = 0.2
 dash_duration = dot_duration * 3

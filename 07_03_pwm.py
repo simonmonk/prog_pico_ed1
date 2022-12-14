@@ -1,7 +1,7 @@
 from machine import Pin, PWM
 from utime import sleep
 
-led = PWM(Pin(25))
+led = PWM(Pin(15))
 
 while True:
     brightness_str = input("brightness (0-65534):")

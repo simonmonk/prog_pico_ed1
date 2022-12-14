@@ -1,7 +1,7 @@
 from machine import Pin
 from utime import sleep
 
-led = Pin(25, Pin.OUT)
+led = Pin(25, Pin.OUT) # For Pico W change 25 to LED see https://forums.raspberrypi.com/viewtopic.php?t=336836
 
 def blink(times, delay):
     for x in range(1, times+1):
